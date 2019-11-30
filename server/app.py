@@ -10,7 +10,7 @@ app = create_app()
 
 # 測試
 @app.route('/hello', methods=['GET'])
-def get_test():
+def hello():
     return 'Hello Flask!'
   
 
